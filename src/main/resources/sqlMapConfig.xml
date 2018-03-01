@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+		<!-- 打印查询语句  用于在控制台打印查询语句 -->
+		<setting name="logImpl" value="STDOUT_LOGGING" />
+	</settings>
+	<!-- 设置别名 -->
+	<!-- <typeAliases>
+		2. 指定扫描包，会把包内所有的类都设置别名，别名的名称就是类名，大小写不敏感
+		<package name="com.itheima.mybatis.pojo" />
+	</typeAliases> -->
+	
+	<mappers>
+	    <mapper resource="stu_system/system/mybatis/SysRoleMapper.xml" />
+	    <mapper resource="stu_system/system/mybatis/SysUserMapper.xml" />
+	    <mapper resource="stu_system/system/mybatis/SysClassMapper.xml" />
+	    <mapper resource="stu_system/system/mybatis/SysLeaveMapper.xml" />
+	    <mapper resource="stu_system/system/mybatis/SysWorkAttendanceMapper.xml"/>	
+	    <mapper resource="stu_system/system/mybatis/SysDictionaryMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysAasignmentMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysAssignmentConditionMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysQuestionLibraryMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysCreateQuestionMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysCreateQuestionQuestionLibraryRelationMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysStudentQuestionnaireRelMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysStudentAnswerMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysPermissionMapper.xml"/>
+	    <mapper resource="stu_system/system/mybatis/SysRolePermissionRelationMapper.xml"/>
+	   
+	
+	</mappers>
+</configuration>

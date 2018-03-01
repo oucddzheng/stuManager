@@ -1,0 +1,27 @@
+[
+	{
+		"firstPermissionId": "1",
+		"firstPermissionName": "系统",
+		"firstPermissionCode": "1",
+		"secondPermission": [
+			{
+				"secondPermissionName": "教务 权限管理",
+				"secondPermissionId": "4",
+				"secondPermissionCode": "4",
+				"url": "permissionManager.jsp"
+			},
+			{
+				"secondPermissionName": "教务  用户信息管理 ",
+				"secondPermissionId": "6",
+				"secondPermissionCode": "6",
+				"url": "userManage.jsp"
+			}
+		]
+	},
+	{
+		"firstPermissionId": "2",
+		"firstPermissionName": "考勤",
+		"firstPermissionCode": "2",
+		"secondPermission": []
+	}
+]
